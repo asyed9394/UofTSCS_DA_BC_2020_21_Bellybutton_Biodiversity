@@ -105,7 +105,7 @@ function buildCharts(sample) {
      
     };
     // Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("bar",barData,barLayout);
+    Plotly.newPlot("bar",barData,barLayout,{responsive: true});
     // 1. Create the trace for the bubble chart.
     //To create the trace object for the bubble chart in Step 1, 
     //assign the otu_ids, sample_values, and otu_labels to the x, y, and text properties, respectively. 
@@ -138,7 +138,7 @@ function buildCharts(sample) {
     };
     
     // 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble",bubbleData,bubbleLayout);
+    Plotly.newPlot("bubble",bubbleData,bubbleLayout,{responsive: true});
     
     //console.log(parseFloat(data.metadata.filter(sampleObj => sampleObj.id == sample)[0].wfreq));
      // 4. Create the trace for the gauge chart.
@@ -171,7 +171,7 @@ function buildCharts(sample) {
   }
 
     // 6. Use Plotly to plot the gauge data and layout.
-    Plotly.newPlot('gauge', gaugeData, gaugeLayout);
+    Plotly.newPlot('gauge', gaugeData, gaugeLayout,{responsive: true});
 
 
   });
