@@ -3,7 +3,7 @@ Discover and document becteria species that able to synthesise protiens to taste
 "Improbable Beef" is a food startup and funded a research to find a bectaria that can provide perfect taste.
 The research is based on the hypothesis that such a  bacteria may be found in belly button or atleast someones belly button.
 The reasrch collected sample of  the naval of people across the country.Each person identity is anyonymous and assigned an id number.
-The solution is to provide a web app for participants and reasearchers to find different bectraia lives in individual particpant et.
+The solution is to provide a web app for participants and reasearchers to find different bectraia lives in individual particpant etc.
 
 ## Project Overview:
 The web page "Bellybutton Biodviersity" provide a drop down box to select a participant by participatn id.
