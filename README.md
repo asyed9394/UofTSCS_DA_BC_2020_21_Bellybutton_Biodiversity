@@ -13,3 +13,5 @@ The filter is then applied to following objects on the page:
 3. A guge to show how many times paritcipant washes their belly button in a week.
 4. A bubble chart to show full bacteria culture sample for the selected participant.
 
+## Solution
+Output is published on Github at https://asyed9394.github.io/Web_Application_Bellybutton_Biodiversity/
